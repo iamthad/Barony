@@ -516,7 +516,7 @@ bool initVideo();
 bool changeVideoMode();
 void generatePolyModels();
 void generateVBOs();
-int loadLanguage(char* lang);
+int loadLanguage(const char* lang);
 int reloadLanguage();
 
 // function prototypes for list.c:

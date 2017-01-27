@@ -508,7 +508,7 @@ int initApp(char* title, int fullscreen)
 
 -------------------------------------------------------------------------------*/
 
-int loadLanguage(char* lang)
+int loadLanguage(const char* lang)
 {
 	char filename[128] = { 0 };
 	FILE* fp;
