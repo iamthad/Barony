@@ -507,7 +507,7 @@ int sgn(double x);
 int numdigits_sint16(Sint16 x);
 int longestline(char* str);
 int concatedStringLength(char* str, ...);
-void printlog(char* str, ...);
+void printlog(const char* str, ...);
 
 // function prototypes for init.c:
 int initApp(char* title, int fullscreen);
